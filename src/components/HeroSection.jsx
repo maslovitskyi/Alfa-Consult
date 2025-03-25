@@ -1,5 +1,5 @@
 import React from 'react';
-
+import background from '../assets/background.jpg'
 const HeroSection = () => {
     /* часть сайта с задним Фоном */
     return (
