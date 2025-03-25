@@ -1,4 +1,8 @@
 import React from 'react';
+import vac1 from '../assets/vacancy-icon-1.png'
+import vac2 from '../assets/vacancy-icon-2.png'
+import vac3 from '../assets/vacancy-icon-3.png'
+import vac4 from '../assets/vacancy-icon-4.png'
 
 const Vacancies = () => {
     /* Блок вакансии */
@@ -17,10 +21,10 @@ const Vacancies = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                     {[
-                        {icon: '/Alfa-Consult/vacancy-icon-1.png', text: 'Мы сохраняем допустимо возможные варианты выбора рабочего графика.'},
-                        {icon: '/Alfa-Consult/vacancy-icon-2.png', text: 'Мы не экономим на знаниях и приветствуем желание повышать квалификацию.'},
-                        {icon: '/Alfa-Consult/vacancy-icon-3.png', text: 'Мы предоставляем все необходимое для комфортной и продуктивной работы.'},
-                        {icon: '/Alfa-Consult/vacancy-icon-4.png', text: 'Мы соблюдаем ТК РФ и достойно оцениваем работу каждого сотрудника.'},
+                        {icon: {vac1}, text: 'Мы сохраняем допустимо возможные варианты выбора рабочего графика.'},
+                        {icon: {vac2}, text: 'Мы не экономим на знаниях и приветствуем желание повышать квалификацию.'},
+                        {icon: {vac3}, text: 'Мы предоставляем все необходимое для комфортной и продуктивной работы.'},
+                        {icon: {vac4}, text: 'Мы соблюдаем ТК РФ и достойно оцениваем работу каждого сотрудника.'},
                     ].map((item, index) => (
                         <div key={index} className="flex items-start space-x-4">
                             <img src={item.icon} alt="icon" className="w-12 h-12" />
