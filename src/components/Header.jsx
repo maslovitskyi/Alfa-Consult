@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import { animateScroll as scroll } from 'react-scroll';
-import logo from 'assets.logo.png';
+import logo from './assets.logo.png';
 const Header = () => {
   const scrollToTop = () => {
     scroll.scrollToTop({
