@@ -17,7 +17,7 @@ const Header = () => {
             onClick={scrollToTop} 
             className='text-lg md:text-xl font-bold cursor-pointer'>
             <img 
-              src="/logo.png" 
+              src="/Alfa-Consult/logo.png" 
               alt="Logo" 
               className='h-12 w-auto md:h-16' 
             />
