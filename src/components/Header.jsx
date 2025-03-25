@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import { animateScroll as scroll } from 'react-scroll';
+import logo from '../assets/logo.png';
 const Header = () => {
   const scrollToTop = () => {
     scroll.scrollToTop({
@@ -17,7 +18,7 @@ const Header = () => {
             onClick={scrollToTop} 
             className='text-lg md:text-xl font-bold cursor-pointer'>
             <img 
-              src="/logo.png" 
+              src={logo}
               alt="Logo" 
               className='h-12 w-auto md:h-16' 
             />
@@ -34,7 +35,7 @@ const Header = () => {
             to='aboutus'
             smooth={true}
             duration={500}
-            className='text-base md:text-xl font-bold hover:text-[#2a6a6f] transition-colors'
+            className='text-base md:text-xl font-bold cursor-pointer hover:text-[#2a6a6f] transition-colors'
           >
             О нас
           </Link>
@@ -50,7 +51,7 @@ const Header = () => {
             to='vacancies'
             smooth={true}
             duration={500}
-            className='text-base md:text-xl font-bold hover:text-[#2a6a6f] transition-colors'
+            className='text-base md:text-xl font-bold cursor-pointer hover:text-[#2a6a6f] transition-colors'
           >
             Вакансии
           </Link>

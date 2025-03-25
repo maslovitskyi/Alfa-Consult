@@ -1,5 +1,6 @@
-import { div, img } from 'framer-motion/client';
 import React from 'react';
+import icon5 from '../assets/icon5.png'
+import icon6 from '../assets/logo1.svg'
 /* Иконки для раздела предложения */
 export const HexagonWithIcon = ({ title }) => {
   const getIconPath = () => {
@@ -149,9 +150,9 @@ export const HexagonWithIcon = ({ title }) => {
         );
         case 'Альфа-Решения':
         return (
-          <g transform="translate(5 7) scale(0.2)">
+          <g transform="translate(5 5) scale(0.3)">
             <image 
-              href="/logo1.svg"  
+              href={icon5}
               x="0" 
               y="0" 
               preserveAspectRatio="xMidYMid meet"
@@ -160,7 +161,7 @@ export const HexagonWithIcon = ({ title }) => {
         );
         case 'Услуги адаптации программ 1С':
           return (
-            <g transform='scale(0.30) translate(18 17)'> <image href='/icon5.png' x="0" y="0" preserveAspectRatio="xMidYMid meet"/></g>
+            <g transform='scale(0.22) translate(18 28)'> <image href={icon6} x="0" y="0" preserveAspectRatio="xMidYMid meet"/></g>
           )
       default:
         return null;
