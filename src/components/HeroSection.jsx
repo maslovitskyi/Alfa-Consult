@@ -8,7 +8,7 @@ const HeroSection = () => {
             style={{ backgroundImage: "url('/background.jpg')" }}
         >
             <div className="ml-10 text-white text-3xl font-bold md:text-7xl">
-                <div>Усги 1С, ИТ-аутсорсинг</div>
+                <div>Услуги 1С, ИТ-аутсорсинг</div>
                 <div>Сопровождение 1С</div>
             </div>
         </div>
