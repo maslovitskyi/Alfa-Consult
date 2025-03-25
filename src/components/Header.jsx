@@ -35,7 +35,7 @@ const Header = () => {
             to='aboutus'
             smooth={true}
             duration={500}
-            className='text-base md:text-xl font-bold hover:text-[#2a6a6f] transition-colors'
+            className='text-base md:text-xl font-bold cursor-pointer hover:text-[#2a6a6f] transition-colors'
           >
             О нас
           </Link>
@@ -51,7 +51,7 @@ const Header = () => {
             to='vacancies'
             smooth={true}
             duration={500}
-            className='text-base md:text-xl font-bold hover:text-[#2a6a6f] transition-colors'
+            className='text-base md:text-xl font-bold cursor-pointer hover:text-[#2a6a6f] transition-colors'
           >
             Вакансии
           </Link>
