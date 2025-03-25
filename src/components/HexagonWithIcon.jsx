@@ -1,6 +1,6 @@
 import React from 'react';
 import icon5 from '../assets/icon5.png'
-import icon6 from '../assets/logo1.png'
+import icon6 from '../assets/logo1.svg'
 /* Иконки для раздела предложения */
 export const HexagonWithIcon = ({ title }) => {
   const getIconPath = () => {
