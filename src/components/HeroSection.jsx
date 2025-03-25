@@ -5,7 +5,7 @@ const HeroSection = () => {
     return (
         <div 
             className="w-full h-screen bg-cover bg-center flex items-center"
-            style={{ backgroundImage: "url('/Alfa-Consult/background.jpg')" }}
+            style={{ backgroundImage: "url('/background.jpg')" }}
         >
             <div className="ml-10 text-white text-3xl font-bold md:text-7xl">
                 <div>Услуги 1С, ИТ-аутсорсинг</div>
