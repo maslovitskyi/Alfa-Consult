@@ -7,7 +7,7 @@ export const InfoBlock = () => (
       { value: '7', label: 'лет работы' },
       { value: '20', label: 'клиентов' },
       { value: '197', label: 'проектов' },
-      { value: '21', label: 'специалистов' },
+      { value: '21', label: 'специалист' },
     ].map((item, index) => (
       <div key={index} className="text-center p-2">
         <div className="text-xl sm:text-2xl font-bold">{item.value}</div>
