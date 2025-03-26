@@ -150,7 +150,7 @@ export const HexagonWithIcon = ({ title }) => {
         );
         case 'Альфа-Решения':
         return (
-          <g transform="translate(5 5) scale(0.3)">
+          <g transform="translate(5 5) scale(0.1)">
             <image 
               href={icon5}
               x="0" 
