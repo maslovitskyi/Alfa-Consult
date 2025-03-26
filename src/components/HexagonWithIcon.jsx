@@ -148,9 +148,13 @@ export const HexagonWithIcon = ({ title }) => {
             -327 26 -24 41 -27 55 -25 126 3 165 101 334 214 370 24 8 53 12 64 9 11 -2
             32 -7 48 -11z"/> </g>
         );
+        case 'Услуги адаптации программ 1С':
+          return (
+            <g transform='scale(0.3) translate(18 28)'> <image href={icon5} x="0" y="0" preserveAspectRatio="xMidYMid meet"/></g>
+          );
         case 'Альфа-Решения':
         return (
-          <g transform="translate(5 5) scale(0.1)">
+          <g transform="translate(5 4) scale(0.11)">
             <image 
               href={icon6}
               x="0" 
@@ -159,10 +163,6 @@ export const HexagonWithIcon = ({ title }) => {
             />
           </g>
         );
-        case 'Услуги адаптации программ 1С':
-          return (
-            <g transform='scale(0.22) translate(18 28)'> <image href={icon5} x="0" y="0" preserveAspectRatio="xMidYMid meet"/></g>
-          )
       default:
         return null;
     }
