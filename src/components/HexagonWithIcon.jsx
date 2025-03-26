@@ -152,7 +152,7 @@ export const HexagonWithIcon = ({ title }) => {
         return (
           <g transform="translate(5 5) scale(0.1)">
             <image 
-              href={icon5}
+              href={icon6}
               x="0" 
               y="0" 
               preserveAspectRatio="xMidYMid meet"
@@ -161,7 +161,7 @@ export const HexagonWithIcon = ({ title }) => {
         );
         case 'Услуги адаптации программ 1С':
           return (
-            <g transform='scale(0.22) translate(18 28)'> <image href={icon6} x="0" y="0" preserveAspectRatio="xMidYMid meet"/></g>
+            <g transform='scale(0.22) translate(18 28)'> <image href={icon5} x="0" y="0" preserveAspectRatio="xMidYMid meet"/></g>
           )
       default:
         return null;
