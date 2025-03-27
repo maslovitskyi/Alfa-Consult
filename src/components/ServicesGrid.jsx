@@ -131,9 +131,9 @@ content: (
 ];
 
 export const ServicesGrid = () => (
-  <div id="services-grid" className='pt-18 -mt-8'>
+  <div id="services-grid" className='pt-18 -mt-8 mb-3'>
   <div className="rounded-xl shadow-2xl bg-white text-black p-6 space-y-6 mx-auto my-8 
-    max-w-[90%] w-full border-2 border-[#3b8e96]">
+    max-w-[90%] w-full border-2 border-[#3b8e96] transition-all duration-300 hover:shadow-3xl" >
     <InfoBlock />
     
     <div className="border-b border-[#3b8e96]/30 mb-8 mx-4"></div>

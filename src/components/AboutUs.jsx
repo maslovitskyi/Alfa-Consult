@@ -3,7 +3,7 @@ import React from 'react';
 const AboutUs = () => {
     return (
         <section id='aboutus' className='pt-5 -mt-84'>
-            <div className="p-4 sm:p-8 bg-white border-2 border-[#3b8e96] rounded-lg shadow-xl max-w-6xl mx-auto mt-20 flex flex-col md:flex-row transition-all duration-300 hover:shadow-2xl">
+            <div className="p-4 sm:p-8 bg-white border-2 border-[#3b8e96] rounded-lg shadow-xl max-w-6xl mx-auto mt-20 flex flex-col md:flex-row transition-all duration-300 hover:shadow-3xl">
                 <div className="w-full md:w-4/5 lg:w-3/5 md:pr-8">
                     <h1 className="text-2xl sm:text-3xl font-bold text-[#3b8e96] mb-4">О компании</h1>
                     <p className="text-gray-700 mb-6">

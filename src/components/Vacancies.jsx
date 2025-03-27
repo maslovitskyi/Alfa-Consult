@@ -8,7 +8,7 @@ const Vacancies = () => {
     /* Блок вакансии */
     return (
         <section id='vacancies' className='pt-5 -mt-8'>
-        <div  className="p-8 bg-white border-2 border-[#3b8e96] rounded-lg shadow-xl max-w-6xl mx-auto mt-20 transition-all duration-300 hover:shadow-2xl">
+        <div  className="p-8 bg-white border-2 border-[#3b8e96] rounded-lg shadow-xl max-w-6xl mx-auto mt-20 transition-all duration-300 hover:shadow-3xl">
             <div className="space-y-6">
                 <h1 className="text-3xl font-bold text-[#3b8e96] mb-4">Вакансии</h1>
                 <h2 className="text-2xl font-semibold text-gray-700 mb-6">Наш бизнес — это ваш успех!</h2>
