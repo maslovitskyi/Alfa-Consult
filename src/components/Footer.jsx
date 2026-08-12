@@ -16,9 +16,9 @@ const Footer = () => {
             
             <div className="text-gray-400 text-sm space-y-1">
               <p className="text-white font-semibold mb-2">Реквизиты:</p>
-              <p>ООО «АЛЬФА-КОНСАЛТ»</p>
-              <p>ОГРН 1173668035760</p>
-              <p>ИНН 3663128762</p>
+              <p>ООО «АБКСОФТ»</p>
+              <p>ОГРН 1263600009375</p>
+              <p>ИНН 3663178467</p>
               <p>КПП 366301001</p>
               <p className="pt-2">г. Воронеж, ул. Лебедева, д.4, оф. 28</p>
             </div>

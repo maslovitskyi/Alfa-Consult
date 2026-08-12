@@ -7,7 +7,7 @@ const AboutUs = () => {
                 <div className="w-full text-center">
                     <h1 className="text-2xl sm:text-3xl font-bold text-[#0F2C59] mb-4">О компании</h1>
                     <p className="text-gray-700 mb-6">
-                        <strong>«АБК-софт»</strong> — более 5 лет на рынке. Мы предоставляем полный комплекс бухгалтерских и кадровых услуг для бизнеса любого масштаба.
+                        <strong>«АБКСОФТ»</strong> — более 5 лет на рынке. Мы предоставляем полный комплекс бухгалтерских и кадровых услуг для бизнеса любого масштаба.
                     </p>
 
                     <div className="flex flex-col items-center">
