@@ -40,16 +40,12 @@ const HeroSection = () => {
         backgroundImage: `url(${background})`,
       }}
     >
-      {/* Затемнение фона */}
       <div className="absolute inset-0 bg-black/20"></div>
 
-      {/* Контент */}
       <div className="relative z-10 max-w-7xl mx-auto px-4">
 
-        {/* Отступ под фиксированный Header */}
         <div className="h-32 md:h-36"></div>
 
-        {/* Панель категорий */}
         <div className="bg-white/90 backdrop-blur-md rounded-2xl shadow-2xl border border-gray-200">
 
           <div className="grid grid-cols-3 md:grid-cols-5">
@@ -131,22 +127,21 @@ const HeroSection = () => {
               "
             >
               Комплексный сервис для бизнеса
-              <br />
-              бухгалтерия, технологии, оборудование
             </h1>
 
             <p
               className="
-                mt-6
+                mt-2
+                mb-2
                 text-white/90
                 max-w-2xl
                 mx-auto
 
                 text-base
-                md:text-xl
+                md:text-3xl
               "
             >
-              Полный комплекс бухгалтерских, кадровых и IT-услуг для бизнеса любого масштаба.
+              бухгалтерия, технологии, оборудование
             </p>
 
           </div>
