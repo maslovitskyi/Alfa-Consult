@@ -30,37 +30,35 @@ const Header = ({ onOpenModal }) => {
             />
           </button>
 
-          {/* Меню (ПК) */}
-          <div className="hidden lg:flex items-center gap-8 text-white">
+          {/* Меню — строго по центру экрана */}
+<div className="hidden lg:flex absolute left-1/2 -translate-x-1/2 items-center gap-8 text-white">
+  <Link
+    to="aboutus"
+    smooth={true}
+    duration={500}
+    className="text-lg font-bold cursor-pointer hover:text-[#D2B471] transition-colors whitespace-nowrap"
+  >
+    О нас
+  </Link>
 
-            <Link
-              to="aboutus"
-              smooth={true}
-              duration={500}
-              className="text-lg font-bold cursor-pointer hover:text-[#D2B471] transition-colors"
-            >
-              О нас
-            </Link>
+  <Link
+    to="services-grid"
+    smooth={true}
+    duration={500}
+    className="text-lg font-bold cursor-pointer hover:text-[#D2B471] transition-colors whitespace-nowrap"
+  >
+    Услуги
+  </Link>
 
-            <Link
-              to="services-grid"
-              smooth={true}
-              duration={500}
-              className="text-lg font-bold cursor-pointer hover:text-[#D2B471] transition-colors"
-            >
-              Услуги
-            </Link>
-
-            <Link
-              to="vacancies"
-              smooth={true}
-              duration={500}
-              className="text-lg font-bold cursor-pointer hover:text-[#D2B471] transition-colors"
-            >
-              Преимущества
-            </Link>
-
-          </div>
+  <Link
+    to="vacancies"
+    smooth={true}
+    duration={500}
+    className="text-lg font-bold cursor-pointer hover:text-[#D2B471] transition-colors whitespace-nowrap"
+  >
+    Преимущества
+  </Link>
+</div>
 
           {/* Правая часть */}
           <div className="flex items-center gap-3 md:gap-4">
