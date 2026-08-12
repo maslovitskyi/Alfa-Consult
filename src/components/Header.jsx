@@ -86,13 +86,13 @@ const Header = ({ onOpenModal }) => {
 
             {/* QR */}
             <div className="w-9 h-9 md:w-11 md:h-11 bg-white rounded shadow-md overflow-hidden shrink-0 hover:scale-105 transition-transform cursor-pointer">
-
+              <a href="http://vk.ru/audbuhvrn">
               <img
                 src={qrCode}
                 alt="QR Code"
                 className="w-full h-full object-cover"
               />
-
+              </a>
             </div>
 
           </div>

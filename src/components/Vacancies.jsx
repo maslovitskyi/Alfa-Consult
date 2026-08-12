@@ -9,8 +9,9 @@ const Vacancies = () => {
         <section id='vacancies' className='pt-5 -mt-8 mb-8'>
             <div className="p-8 bg-white border-2 border-[#D2B471] rounded-lg shadow-xl max-w-6xl mx-auto mt-20 transition-all duration-300 hover:shadow-3xl">
                 <div className="space-y-6">
+                    <div className='w-full text-center'>
                     <h2 className="text-2xl md:text-3xl font-bold text-[#0F2C59] mb-6">Наш бизнес — ваше спокойствие и уверенность</h2>
-                    
+                    </div>
                     <p className="text-gray-700 mb-8">
                         Наша компания основана профессионалами, поэтому мы хорошо понимаем ценность грамотного ведения учета. 
                         Мы берем на себя всю рутину, чтобы вы могли уверенно развивать свой бизнес, не беспокоясь о налогах,
