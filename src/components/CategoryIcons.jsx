@@ -110,16 +110,6 @@ export const RepairIcon = ({ className }) => (
          z"
       {...iconProps}
     />
-
-    <line x1="19" y1="37" x2="27" y2="45" {...iconProps} />
-
-    <path
-      d="M18 16
-         l10 10"
-      {...iconProps}
-    />
-
-    <line x1="15" y1="13" x2="21" y2="19" {...iconProps} />
   </Wrapper>
 );
 

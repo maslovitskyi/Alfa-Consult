@@ -124,15 +124,15 @@ const HeroSection = () => {
                 leading-tight
                 drop-shadow-2xl
 
-                text-4xl
-                sm:text-5xl
-                md:text-6xl
-                lg:text-7xl
+                text-3xl
+                sm:text-4xl
+                md:text-5xl
+                lg:text-6xl
               "
             >
-              Весь спектр
+              Комплексный сервис для бизнеса
               <br />
-              бухгалтерских услуг
+              бухгалтерия, технологии, оборудование
             </h1>
 
             <p
